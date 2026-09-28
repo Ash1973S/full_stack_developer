@@ -1,7 +1,8 @@
 # Ashraf Sada
+
 ## Full Stack Developer & Systems Engineer
 
-Email: ashsada1973@gmail.com | Mobile: +962-79-031-8184 | Amman, Jordan
+Email: <ashsada1973@gmail.com> | Mobile: +962-79-031-8184 | Amman, Jordan
 [GitHub](https://github.com/AshrafSada) |
 [Codeberg](https://codeberg.org/AshSada) |
 [Stack Overflow](https://stackoverflow.com/users/2459714/ashraf-sada)
@@ -10,7 +11,7 @@ Email: ashsada1973@gmail.com | Mobile: +962-79-031-8184 | Amman, Jordan
 
 ## Summary
 
-Full Stack & Systems Engineer with 12+ years of experience across web,
+Full Stack and Systems Engineer with 12+ years of experience across web,
 desktop, and cross-platform mobile development. Comfortable owning the
 full stack from low-level systems work in Zig to production ASP.NET
 Core services and modern JavaScript front-ends (React, Solid,
@@ -32,12 +33,12 @@ Blazor). Ships across Windows and Linux with strong database design
 
 ## Technical Skills
 
-- **Languages:** C#, Zig, JavaScript, Python, Bash, PowerShell
+- **Languages:** C#, Zig, Elixir, JavaScript, Python, Bash, PowerShell
 - **Back-end / APIs:** ASP.NET Core, ASP.NET WebForms, REST, CQRS,
-  DDD
-- **Front-end:** React, Next.js, Solid, Blazor, Vanilla JS, CSS,
+  DDD, Phoenix, LiveView
+- **Front-end:** React, Next JS, Solid JS, Blazor, Vanilla JS, CSS, SCSS,
   Tailwind CSS
-- **Mobile / Cross-Platform:** .NET MAUI, Xamarin, Flutter
+- **Mobile / Cross-Platform:** .NET MAUI, Flutter
 - **Systems / OS:** Windows, Linux, Docker, systemd, HAProxy, FFI,
   Concurrency, Byte Management (memory hierarchy)
 - **Networking:** HTTP/HTTPS, WebSockets, TCP/UDP sockets,
@@ -52,7 +53,8 @@ Blazor). Ships across Windows and Linux with strong database design
 ## Work Experience
 
 ### Freelance Software & Systems Engineer
-*Aug 2024 - Present* | Amman, Jordan
+
+*Aug 2024 - Present* | Freelance, Amman, Jordan
 
 **Parcel Delivery System (PDS)** | C#, ASP.NET Core, Blazor,
 .NET MAUI
@@ -79,6 +81,7 @@ Blazor). Ships across Windows and Linux with strong database design
 - Deployment: Azure cloud SaaS, CI/CD via GitHub Actions.
 
 ### Full Stack Developer
+
 *Jan 2022 - Jul 2024* | Mafateeh Group IT and Media Solutions,
 Amman, Jordan
 
@@ -118,6 +121,7 @@ ASP.NET Core
 - Handles 30+ client accounts.
 
 ### Online Instructor (Independent)
+
 *Apr 2020 - Dec 2021* | Remote
 
 - Taught university students online: Java, C#, web layout, CSS, and
@@ -126,6 +130,7 @@ ASP.NET Core
   practical web development and secured a job post-pandemic.
 
 ### Team Lead, Full Stack Developer
+
 *Nov 2018 - Mar 2020* | TATWIR Foods, Amman, Jordan
 
 **Supply Chain & Sales Distribution ERP** | C#, ASP.NET Core MVC,
@@ -153,6 +158,7 @@ SQL Server
   practices.
 
 ### Software Engineer / Product Manager
+
 *Oct 2016 - Nov 2018* | ProActive Business Solutions, Abu Dhabi,
 UAE
 
@@ -176,13 +182,14 @@ UAE
 - Designed a Fixed Assets management module with improved
   depreciation tracking.
 
-**Product Management**
+**Product Management** | C#, ASP.NET Core
 
 - Acted as product manager: met with stakeholders and end users,
   translated business requirements into technical specs for the dev
   team lead and operations manager.
 
 ### Software Engineer
+
 *Sep 2014 - Oct 2016* | Yamar Business Solutions Development,
 Amman, Jordan
 
@@ -203,16 +210,32 @@ Amman, Jordan
 
 ## Personal Projects
 
-**Xevora - Medical Appointments App** | Zig, PostgreSQL, SolidJS,
-Flutter *(In Progress)*
+**Xevora - Medical Appointments Platform** | *Elixir, Phoenix LiveView,
+PostgreSQL, Flutter* *(In Progress)*
 
-- Real-time medical scheduling platform for clinics and patients:
-  appointment management, push notifications, and routing control.
-- Zig REST API back-end with connection pooling; PostgreSQL primary +
-  2 read replicas via repmgr; HAProxy load balancer; SolidJS web
-  client, Flutter mobile app.
-- Architecture: HAProxy reverse proxy, cache layer, and automated
-  backup store.
+- **High-Scale Concurrency Architecture:** Engineered a fault-tolerant backend
+on the BEAM VM, optimized to handle **~45,000 daily transactions** across
+**1,300+ medical centers**. Leveraged **OTP Supervision Trees** and
+**lightweight processes** to ensure high availability and graceful degradation
+under peak load.
+- **Real-Time User Experience with Phoenix LiveView:** Replaced traditional SPAs
+with **Phoenix LiveView** to deliver reactive, server-rendered UIs. Utilized
+**`Phoenix.PubSub`** for instant, WebSocket-driven appointment updates and
+real-time conflict resolution, reducing client-side overhead and improving
+time-to-interactive.
+- **Asynchronous Notification Pipeline:** Designed a non-blocking notification
+system using **Elixir `Task` supervisors** and background workers to manage
+real-time alerts for patients and staff. Ensured reliable delivery of critical
+updates without blocking the main request thread or degrading API latency.
+- **Robust Data Integrity & Scalability:** Implemented a high-availability
+**PostgreSQL** cluster (Primary + 2 Read Replicas via repmgr) with
+**Ecto connection pooling**. Enforced strict business logic and data validity
+using **Ecto changesets** and **guard clauses** at the application boundary,
+ensuring zero-corruption in medical scheduling data.
+- **Decoupled Multi-Client Architecture:** Structured the backend using
+**Phoenix Contexts** to decouple business logic from transport layers, providing
+a consistent, type-safe API for both the **LiveView web interface** and
+**Flutter mobile app**, facilitating parallel development and easier maintenance.
 
 ---
 
@@ -230,4 +253,3 @@ Flutter *(In Progress)*
 - English (fluent)
 - Spanish
 - Turkish
-
