@@ -41,12 +41,25 @@ Blazor). Ships across Windows and Linux with strong database design
 - **Mobile / Cross-Platform:** .NET MAUI, Flutter
 - **Systems / OS:** Windows, Linux, Docker, systemd, HAProxy, FFI,
   Concurrency, Byte Management (memory hierarchy)
-- **Networking:** HTTP/HTTPS, WebSockets, TCP/UDP sockets,
-  IP/Subnets, VPCs, network architecture
+- **Networking:** HTTP/HTTPS, WebSockets, TCP/UDP sockets, IP/Subnets, VPCs,
+  network architecture, DNS, DHCP, firewall rules (nftables, ufw),
+  load balancing, VLANs, packet analysis (tcpdump, Wireshark)
+- **Routing & Switching:** BGP, OSPF, IS-IS, EIGRP, VRF, QoS,
+  MPLS, traffic engineering, SD-WAN
+- **Telecom Protocols:** SIP, SS7, Diameter, GTP, VoIP,
+  RADIUS, 802.1X
+- **Monitoring & Uptime:** Zabbix, Nagios, Prometheus, Grafana,
+  Datadog, SNMP, ITIL incident management, SLA/MTTR tracking
+- **Telephony & Infrastructure:** VoIP, PBX, Asterisk, FreeSWITCH,
+  fiber optics (single/multi-mode), UPS/PDU, rack hardware
+  (Cisco, Juniper, Huawei)
+- **Server Setup & Configuration:** Linux administration (Ubuntu, Debian),
+  SSH hardening, systemd services, Nginx/Caddy reverse proxies,
+  HAProxy, Docker Compose, CI/CD pipelines, log management (journald, rsyslog)
 - **Databases:** T-SQL (SQL Server), PostgreSQL, SQLite
-- **DevOps / Automation:** GitHub Actions, Forgejo Actions, Azure
+- **DevOps / Automation:** GitHub Actions, Forgejo Actions, Azure, AWS
   DevOps, Docker, Nginx, YAML
-- **Testing:** xUnit, Playwright, pytest
+- **Testing:** xUnit, Playwright, pytest, Vitest, ExUnit(Elixir)
 
 ---
 
